@@ -1,0 +1,11 @@
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\bin\Debug\DesktopWoocomerce.exe.config
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\bin\Debug\DesktopWoocomerce.exe
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\bin\Debug\DesktopWoocomerce.pdb
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.csprojAssemblyReference.cache
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.Cake.resources
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.Properties.Resources.resources
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.UILogin.resources
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.csproj.GenerateResource.cache
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.csproj.CoreCompileInputs.cache
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.exe
+C:\Users\ngocn\OneDrive\Máy tính\Kiểm thử phần mềm\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.pdb
