@@ -32,7 +32,7 @@ namespace DesktopWoocomerce
                 //SqlCommand cmd = new SqlCommand(query, con);
                 //con.Open();
                 DataSet ds = new DataSet();
-                MessageBox.Show("connect with sql server");
+                MessageBox.Show("connect to database successfully");
                 con.Close();
             }
             catch(Exception es)
