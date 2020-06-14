@@ -35,6 +35,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnLoginUI = new System.Windows.Forms.Button();
             this.btnConnectDB = new System.Windows.Forms.Button();
+            this.btnBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,12 +97,23 @@
             this.btnConnectDB.UseVisualStyleBackColor = true;
             this.btnConnectDB.Click += new System.EventHandler(this.btnConnectDB_Click);
             // 
+            // btnBack
+            // 
+            this.btnBack.Location = new System.Drawing.Point(12, 318);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(81, 33);
+            this.btnBack.TabIndex = 4;
+            this.btnBack.Text = "Quay lại";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // UILogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 404);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnConnectDB);
             this.Controls.Add(this.btnLoginUI);
             this.Controls.Add(this.textBox2);
@@ -123,5 +135,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btnLoginUI;
         private System.Windows.Forms.Button btnConnectDB;
+        private System.Windows.Forms.Button btnBack;
     }
 }

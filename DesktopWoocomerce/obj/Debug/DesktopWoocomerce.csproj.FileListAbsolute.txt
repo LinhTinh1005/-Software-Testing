@@ -20,3 +20,4 @@ D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.csproj.Genera
 D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.csproj.CoreCompileInputs.cache
 D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.exe
 D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.pdb
+D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.Register.resources

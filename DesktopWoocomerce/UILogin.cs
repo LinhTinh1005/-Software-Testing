@@ -29,8 +29,8 @@ namespace DesktopWoocomerce
                 String str = "server=DESKTOP-8DE68CR\\SQLEXPRESS; database=woocomerce";
                 String query = "select *from UserLogin";
                 SqlConnection con = new SqlConnection(str);
-                SqlCommand cmd = new SqlCommand(query, con);
-                con.Open();
+                //SqlCommand cmd = new SqlCommand(query, con);
+                //con.Open();
                 DataSet ds = new DataSet();
                 MessageBox.Show("connect with sql server");
                 con.Close();
@@ -39,6 +39,13 @@ namespace DesktopWoocomerce
             {
                 MessageBox.Show(es.Message);
             }
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Cake cake = new Cake();
+            cake.ShowDialog();
         }
     }
 }

@@ -31,7 +31,9 @@ namespace DesktopWoocomerce
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Register register = new Register();
+            register.Show();
         }
     }
 }
