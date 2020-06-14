@@ -34,6 +34,7 @@
             this.tbxLoginName = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnLoginUI = new System.Windows.Forms.Button();
+            this.btnConnectDB = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -85,12 +86,23 @@
             this.btnLoginUI.Text = "Đăng nhập";
             this.btnLoginUI.UseVisualStyleBackColor = false;
             // 
+            // btnConnectDB
+            // 
+            this.btnConnectDB.Location = new System.Drawing.Point(12, 357);
+            this.btnConnectDB.Name = "btnConnectDB";
+            this.btnConnectDB.Size = new System.Drawing.Size(81, 35);
+            this.btnConnectDB.TabIndex = 3;
+            this.btnConnectDB.Text = "test cndb";
+            this.btnConnectDB.UseVisualStyleBackColor = true;
+            this.btnConnectDB.Click += new System.EventHandler(this.btnConnectDB_Click);
+            // 
             // UILogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 404);
+            this.Controls.Add(this.btnConnectDB);
             this.Controls.Add(this.btnLoginUI);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.tbxLoginName);
@@ -110,5 +122,6 @@
         private System.Windows.Forms.TextBox tbxLoginName;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button btnLoginUI;
+        private System.Windows.Forms.Button btnConnectDB;
     }
 }
