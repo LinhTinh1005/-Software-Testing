@@ -21,3 +21,4 @@ D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.csproj.CoreCo
 D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.exe
 D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.pdb
 D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.Register.resources
+D:\-Software-Testing\DesktopWoocomerce\obj\Debug\DesktopWoocomerce.Ebook.resources

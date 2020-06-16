@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tbxLoginName = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbxPass = new System.Windows.Forms.TextBox();
             this.btnLoginUI = new System.Windows.Forms.Button();
             this.btnConnectDB = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
@@ -68,14 +68,14 @@
             this.tbxLoginName.Size = new System.Drawing.Size(252, 35);
             this.tbxLoginName.TabIndex = 1;
             // 
-            // textBox2
+            // tbxPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(286, 201);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(252, 33);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.tbxPass.Location = new System.Drawing.Point(286, 201);
+            this.tbxPass.Multiline = true;
+            this.tbxPass.Name = "tbxPass";
+            this.tbxPass.Size = new System.Drawing.Size(252, 33);
+            this.tbxPass.TabIndex = 1;
+            this.tbxPass.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // btnLoginUI
             // 
@@ -86,6 +86,7 @@
             this.btnLoginUI.TabIndex = 2;
             this.btnLoginUI.Text = "Đăng nhập";
             this.btnLoginUI.UseVisualStyleBackColor = false;
+            this.btnLoginUI.Click += new System.EventHandler(this.btnLoginUI_Click);
             // 
             // btnConnectDB
             // 
@@ -116,7 +117,7 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnConnectDB);
             this.Controls.Add(this.btnLoginUI);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbxPass);
             this.Controls.Add(this.tbxLoginName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -132,7 +133,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbxLoginName;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbxPass;
         private System.Windows.Forms.Button btnLoginUI;
         private System.Windows.Forms.Button btnConnectDB;
         private System.Windows.Forms.Button btnBack;
