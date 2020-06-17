@@ -66,7 +66,7 @@
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnLogin);
             this.Name = "Cake";
-            this.Text = "Form1";
+            this.Text = "Cake";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

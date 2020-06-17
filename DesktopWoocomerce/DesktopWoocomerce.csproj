@@ -72,6 +72,7 @@
     <Compile Include="UILogin.Designer.cs">
       <DependentUpon>UILogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="Ebook.resx">
       <DependentUpon>Ebook.cs</DependentUpon>
     </EmbeddedResource>

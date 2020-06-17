@@ -12,6 +12,7 @@ namespace DesktopWoocomerce
 {
     public partial class UILogin : Form
     {
+
         public UILogin()
         {
             InitializeComponent();
@@ -50,20 +51,20 @@ namespace DesktopWoocomerce
 
         private void btnLoginUI_Click(object sender, EventArgs e)
         {
-            if(tbxLoginName.Text==""||tbxPass.Text=="")
+            if (tbxLoginName.Text == "" || tbxPass.Text == "" || txtPhone.Text == "" || txtAddress.Text == "")
             {
-                MessageBox.Show("Please provide UserName and Password");
+                MessageBox.Show("Vui lòng điền đủ các trường");
                 return;
             }
             else
             {
                 string str = "Data Source=DESKTOP-8DE68CR\\SQLEXPRESS;Initial Catalog=DestopApp;Integrated Security=True";
                 SqlConnection con = new SqlConnection(str);
-                string query = "select * from LoginUS1 where UserName = '" + tbxLoginName.Text.Trim() + "' and PassWord ='" + tbxPass.Text.Trim() + "'";
+                string query = "select * from USER1 where UserName = '" + tbxLoginName.Text.Trim() + "' and PassWord ='" + tbxPass.Text.Trim() + "' and Phone ='" + txtPhone.Text.Trim() + "'and Address='" + txtAddress.Text.Trim() + "'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, con);
                 DataTable dttb = new DataTable();
                 sda.Fill(dttb);
-                if (dttb.Rows.Count == 1)
+                if (dttb.Rows.Count > 0)
                 {
                     Ebook ebook = new Ebook();
                     this.Hide();
@@ -72,11 +73,20 @@ namespace DesktopWoocomerce
                 }
                 else
                 {
-                    MessageBox.Show("check your username and password");
+                    MessageBox.Show("Kiểm tra lại Thông tin");
                 }
             }
 
         }
 
+        private void UserName_Login_Validation(object sender, EventArgs e)
+        {
+            //if (string.IsNullOrEmpty(tbxLoginName.Text))
+            //{
+            //    tbxLoginName.Focus();
+            //    ErrorProvider.SetError(
+            //        this.tbxLoginName,"Vui lòng nhập tên");
+            //}
+        }
     }
 }

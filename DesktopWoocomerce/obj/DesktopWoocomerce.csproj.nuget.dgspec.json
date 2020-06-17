@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\-Software-Testing\\DesktopWoocomerce\\DesktopWoocomerce.csproj": {}
+  },
+  "projects": {
+    "D:\\-Software-Testing\\DesktopWoocomerce\\DesktopWoocomerce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\-Software-Testing\\DesktopWoocomerce\\DesktopWoocomerce.csproj",
+        "projectName": "DesktopWoocomerce",
+        "projectPath": "D:\\-Software-Testing\\DesktopWoocomerce\\DesktopWoocomerce.csproj",
+        "packagesPath": "C:\\Users\\ngocn\\.nuget\\packages\\",
+        "outputPath": "D:\\-Software-Testing\\DesktopWoocomerce\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\ngocn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net46": {}
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
